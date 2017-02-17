@@ -1,0 +1,24 @@
+<div class="container">
+    <md-card class="col-md-4 col-md-offset-4 center">
+        <md-toolbar color="primary">Login</md-toolbar>
+
+        <md-card-content class="col-md-12">
+            <form class="form-signin" [formGroup]="loginForm">
+                <md-input type="email" id="inputEmail" class="form-control"
+                       placeholder="Email"
+                       autofocus="" formControlName="email"></md-input>
+
+                <md-input type="password" id="inputPassword" class="form-control"
+                       placeholder="Password" formControlName="password"></md-input>
+
+                <p class="error-message">{{error}}</p>
+            </form>
+
+            <md-card-actions align="end">
+                <button md-button (click)="goToSignUp()">SIGNUP</button>
+                <button  md-raised-button color="primary" (click)="onSubmit()">LOGIN</button>
+            </md-card-actions>
+        </md-card-content>
+
+    </md-card>
+</div>

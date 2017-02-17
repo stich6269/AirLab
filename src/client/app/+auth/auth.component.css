@@ -1,0 +1,21 @@
+md-toolbar{
+    width: 100%;
+}
+
+md-card{
+    padding: 0;
+}
+
+md-card-content{
+    padding: 25px 25px 0 25px;
+}
+
+md-input{
+    font-size: 1.4em;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.center{
+    margin-top: 15%;
+}

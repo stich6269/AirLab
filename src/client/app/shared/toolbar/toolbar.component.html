@@ -1,0 +1,20 @@
+<md-toolbar color="primary">
+    <button md-icon-button color="primary">
+        <md-icon class="sd-toolbar-icon">menu</md-icon>
+    </button>
+    <span>AirLab</span>
+    <span class="sd-toolbar-filler"></span>
+
+    <button md-icon-button [md-menu-trigger-for]="posXMenu">
+        <md-icon>more_vert</md-icon>
+    </button>
+
+    <md-menu x-position="before" #posXMenu="mdMenu" class="before">
+        <button md-menu-item *ngFor="let item of items" [disabled]="item.disabled">
+            {{ item.text }}
+        </button>
+    </md-menu>
+
+</md-toolbar>
+
+

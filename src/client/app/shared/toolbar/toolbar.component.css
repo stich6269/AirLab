@@ -1,0 +1,21 @@
+.sd-toolbar-icon {
+    color: white;
+}
+
+.sd-toolbar-filler {
+    flex: 1 1 auto;
+}
+
+.demo-menu {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.demo-menu .menu-section {
+    width: 300px;
+    margin: 20px;
+}
+
+.demo-menu .end-icon {
+    align-items: flex-end;
+}

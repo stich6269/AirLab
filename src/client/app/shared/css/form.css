@@ -1,0 +1,31 @@
+
+input{
+  margin-top: 20px;
+  border: none;
+  border-bottom: 2px solid #00acac;
+  border-radius: 0;
+  padding-left: 0;
+  background-color: transparent;
+}
+
+input.error{
+  border-color: red;
+}
+
+.error-message{
+  display: inline-block;
+  width: 100%;
+  color: red;
+  opacity: 0.7;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+input.error::-webkit-input-placeholder{color: red}
+input.error:-moz-placeholder{color: red}
+
+button{
+  border-radius: 0;
+  background-color: #00acac;
+  border: none;
+}

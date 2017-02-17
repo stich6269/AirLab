@@ -1,0 +1,11 @@
+{
+  "dev": {
+    "API": "http://localhost:3000/"
+  },
+  "prod": {
+    "API": "http://localhost:3000/"
+  },
+  "staging": {
+    "API": "http://localhost:3000/"
+  }
+}
